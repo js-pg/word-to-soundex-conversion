@@ -1,10 +1,6 @@
 
 user_input = input("Enter a word:  ")
 
-#-------------String > list conversion---------------
-raw_str_ = " ".join(raw_str__.split())#replaces multiple spaces into 1
-list_refined = (raw_str__.split())#turns the string into a list
-
 user_input = "a".join(user_input.split())
 user_input = "b".join(user_input.split())
 user_input = "c".join(user_input.split())
