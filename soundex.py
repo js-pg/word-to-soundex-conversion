@@ -1,6 +1,4 @@
 
-from raw_list import raw_str__
-
 user_input = input("Enter a word:  ")
 
 #-------------String > list conversion---------------
@@ -38,8 +36,8 @@ user_input = "z".join(user_input.split())
 first_letter = (user_input.upper()[0])
 user_input = user_input[1:]#removes first letter
 
-user_input = user_input.replace('a', '').replace('e', '').replace('i', '').replace('o', '').replace('u', '').replace('y', '').replace('h', '').replace('w', '').replace(' ', '') #probably a better way to do this; will try and update later
-
+user_input = user_input.replace('a', '').replace('e', '').replace('i', '').replace('o', '').replace('u', '').replace('y', '').replace('h', '').replace('w', '').replace(' ', '')
+ #probably a better way to do this; will try and update later
 user_input = user_input.replace('b', '1').replace('f', '1').replace('p', '1').replace('v', '1').replace('c', '2').replace('g', '2').replace('j', '2').replace('k', '2').replace('q', '2').replace('s', '2').replace('x', '2').replace('z', '2').replace('d', '3').replace('t', '3').replace('l', '4').replace('m', '5').replace('n', '5').replace('r', '6')
 
 while True:
